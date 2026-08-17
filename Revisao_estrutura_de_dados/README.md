@@ -1,1 +1,3 @@
+Estrutura de dados II
 
+Um dos códigos de estrutura de dados I Na atividade "Bolha" realizada na matéria Estrutura de Dados I, foi solicitado que o código realizasse a seguinte tarefa: escrever um algoritmo que ordenasse 5 valores inteiros de forma crescente. O algoritmo trabalha com a "qtd" 5 valores. Ele vai organizar os 5 valores seguindo o método "Bolha", é um algoritmo simples que organiza os itens de um vetor comparando pares de números vizinhos e trocando-os de lugar se estiverem na ordem errada. O código vai imprimir o vetor original e percorrer o arranjo por fora, para cada elemento do arranjo será comparado aos seus vizinhos (lado a lado)! Se o elemento atual for maior que seu vizinho, então o algoritmo realiza a troca de posição de valores.
