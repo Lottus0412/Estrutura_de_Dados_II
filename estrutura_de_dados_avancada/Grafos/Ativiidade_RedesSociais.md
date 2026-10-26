@@ -15,13 +15,14 @@ Aqui estão as amizades que precisa desenhar:
 
 <img width="1920" height="1080" alt="Grafo_RedesSociais" src="https://github.com/user-attachments/assets/1c9264ff-4204-4767-812f-2697072f7969" />
 
-Atividade 2 — Calcular o grau
-Usuário	Amigos diretos	          Grau
+Atividade 2 — Calcular o grau(Vou consertar)
+
+Usuário	Amigos diretos	            Grau
 Ana	Bruno e Carla	                  2
 Bruno	Ana, Carla e Diego	          3
 Carla	Ana, Bruno e Elisa	          3
-Diego	Bruno, Elisa e Felipe	        3
-Elisa	Carla, Diego e Felipe	        3
+Diego	Bruno, Elisa e Felipe	      3
+Elisa	Carla, Diego e Felipe	      3
 Felipe	Diego e Elisa	              2
 
 Pergunta 1: quem tem mais conexões diretas?
