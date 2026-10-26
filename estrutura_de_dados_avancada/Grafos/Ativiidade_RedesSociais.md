@@ -17,13 +17,7 @@ Aqui estão as amizades que precisa desenhar:
 
 Atividade 2 — Calcular o grau(Vou consertar)
 
-Usuário	Amigos diretos	            Grau
-Ana	Bruno e Carla	                  2
-Bruno	Ana, Carla e Diego	          3
-Carla	Ana, Bruno e Elisa	          3
-Diego	Bruno, Elisa e Felipe	      3
-Elisa	Carla, Diego e Felipe	      3
-Felipe	Diego e Elisa	              2
+------------------------------------------
 
 Pergunta 1: quem tem mais conexões diretas?
 
@@ -44,32 +38,7 @@ Interpretação: a rede tem uma quantidade moderada de conexões possíveis. Ain
 
 Atividade 5 — Representar o grafo em Python
 
-rede = {
-    "Ana": ["Bruno", "Carla"],
-    "Bruno": ["Ana", "Carla", "Diego"],
-    "Carla": ["Ana", "Bruno", "Elisa"],
-    "Diego": ["Bruno", "Elisa", "Felipe"],
-    "Elisa": ["Carla", "Diego", "Felipe"],
-    "Felipe": ["Diego", "Elisa"]
-}
-
-# Quantidade de usuarios
-n = len(rede)
-
-# Grau de cada usuario
-for usuario, amigos in rede.items():
-    print(usuario, "tem", len(amigos), "conexoes")
-
-# Total de amizades
-soma_graus = sum(len(amigos) for amigos in rede.values())
-arestas = soma_graus // 2
-
-print("Total de usuarios:", n)
-print("Total de amizades:", arestas)
-
-# Densidade do grafo
-densidade = (2 * arestas) / (n * (n - 1))
-print(f"Densidade: {densidade:.2%}")
+-----------------------------------------------------------------------
 
 Atividade 6 — Encontrar um caminho
 O caderno pede um caminho de Ana até Felipe.
@@ -79,10 +48,6 @@ Caminho 1:
 Ana → Bruno → Diego → Felipe
 
 - Quantidade de arestas: 3.
-
-Outro caminho com a mesma quantidade de arestas:
-
-Ana → Carla → Elisa → Felipe
 
 - Quantidade de arestas: 3.
 
