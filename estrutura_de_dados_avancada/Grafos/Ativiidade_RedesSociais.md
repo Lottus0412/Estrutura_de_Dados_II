@@ -1,4 +1,4 @@
-Atividade Redes Sociais
+Atividade Redes Sociais(Em produção)
 
 Atividade 1 — Desenhar o grafo
 O caderno pede para desenhar seis círculos, um para cada pessoa, e ligar os que são amigos.
