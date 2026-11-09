@@ -43,17 +43,10 @@ As amizades são:
 ## 5. Passo a passo: calcule o grau
 Conte quantas linhas chegam a cada círculo. Registre o resultado.
 
-| Usuário | Amigos diretos | Grau |
-|---|---|---:|
-| Ana | __________________ | ____ |
-| Bruno | __________________ | ____ |
-| Carla | __________________ | ____ |
-| Diego | __________________ | ____ |
-| Elisa | __________________ | ____ |
-| Felipe | __________________ | ____ |
+<img width="765" height="197" alt="image" src="https://github.com/user-attachments/assets/4a56b67e-b48c-4a45-9cbd-07a11ca7a3b1" />
 
 **Pergunta 1:** quem tem mais conexões diretas?  
-Resposta: __________________________________________________
+Resposta: Clara e Diego, ambos possuem 4 conexões diretas.
 
 ## 6. Passo a passo: calcule o número de amizades
 Some todos os graus. Como cada amizade conecta dois usuários, cada aresta é contada duas vezes.
