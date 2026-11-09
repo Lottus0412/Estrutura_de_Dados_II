@@ -35,11 +35,8 @@ As amizades são:
 8. Elisa — Felipe
 
 ## 4. Passo a passo: desenhe o grafo
-1. Desenhe seis círculos, um para cada usuário.
-2. Escreva o nome de cada pessoa dentro do círculo.
-3. Para cada amizade da lista, desenhe uma linha entre os dois usuários.
-4. Não desenhe duas linhas para a mesma amizade.
-5. Confira se todas as oito amizades aparecem.
+<img width="497" height="531" alt="image" src="https://github.com/user-attachments/assets/4acefd90-ab77-4d07-9a54-8bcc1d49a77a" />
+
 
 **Espaço para o seu desenho:** faça o grafo no caderno ou em uma ferramenta de desenho.
 
