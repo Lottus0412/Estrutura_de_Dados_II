@@ -54,9 +54,17 @@ Some todos os graus. Como cada amizade conecta dois usuários, cada aresta é co
 **Fórmula:**  
 `Número de arestas = soma dos graus ÷ 2`
 
-1. Soma dos graus: ______
-2. Divida por 2: ______ ÷ 2 = ______
-3. Quantas amizades existem no grafo? ______
+1. Soma dos graus:
+
+2 + 3 + 4 + 4 + 3 + 2 = 18
+
+2. Divida por 2:
+
+18 ÷ 2 = 9
+
+3. Quantas amizades existem no grafo?
+
+Resposta: 9 amizades.
 
 ## 7. Passo a passo: calcule a densidade
 A densidade compara as amizades existentes com o total de amizades possíveis.
@@ -71,14 +79,14 @@ Em que:
 - `V` = número de vértices.
 
 Substitua os valores:
-`D = 2 × ____ / (____ × (____ − 1))`
+`D = 2 × 9 / ( 6 × ( 6 − 1))`
 
-Resultado decimal: __________  
-Resultado percentual: __________ %
+Resultado decimal: 0,6
+Resultado percentual: 60 %
 
 **Interprete:** a rede tem poucas ou muitas das conexões possíveis? Explique com suas palavras.
 
-________________________________________________________________
+A rede possui uma quantidade relativamente grande de conexões possíveis, pois sua densidade é de 60%. Isso significa que, das 15 amizades que poderiam existir entre os usuários, 9 já existem.
 
 ## 8. Passo a passo: represente o grafo em Python
 A lista de adjacência registra, para cada usuário, os nomes de seus amigos. Digite o código em Python (por exemplo, no Google Colab ou em outro ambiente disponível).
@@ -124,22 +132,16 @@ print(f"Densidade: {densidade:.2%}")
 Encontre um caminho de Ana até Felipe. Cada passagem por uma linha corresponde a uma aresta.
 
 Exemplo de registro:
-`Ana → __________ → __________ → Felipe`
+`Ana → Clara → Diego → Felipe`
 
-- Quantas arestas há no caminho? ______
+- Quantas arestas há no caminho? 3
 - Você encontrou outro caminho com a mesma quantidade de arestas? Qual?
 
-________________________________________________________________
+Ana → Clara → Diego → Felipe
 
 ## 10. Desafio em grupo
-Amplie a rede social:
-1. Adicione pelo menos quatro usuários fictícios.
-2. Crie no mínimo cinco novas amizades.
-3. Atualize a lista de adjacência no Python.
-4. Recalcule os graus, o total de arestas e a densidade.
-5. Compare a densidade antes e depois da ampliação.
-6. Identifique os usuários com mais conexões.
-7. Explique como a rede poderia recomendar uma nova amizade.
+<img width="465" height="337" alt="image" src="https://github.com/user-attachments/assets/ac9d971d-6389-4da0-ba03-4f9c43742fb4" />
+
 
 ## 11. Entrega
 Entregue:
